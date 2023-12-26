@@ -1,0 +1,19 @@
+*{
+    margin-top: 5%;
+}
+        body {
+            font-family: Arial, sans-serif;
+
+            background-image:url("VR gif.webp") ;
+            background-size: cover; /* make the image cover the whole page */
+            background-repeat: no-repeat; /* prevent the image from repeating */
+            background-attachment: fixed; /* keep the image fixed when scrolling */
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
